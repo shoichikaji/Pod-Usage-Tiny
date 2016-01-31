@@ -20,6 +20,8 @@ my %WriteMakefileArgs = (
     "Pod::Simple::SimpleTree" => 0
   },
   "TEST_REQUIRES" => {
+    "Capture::Tiny" => 0,
+    "Path::Tiny" => 0,
     "Test::More" => "0.98"
   },
   "VERSION" => "0.01",
@@ -30,6 +32,8 @@ my %WriteMakefileArgs = (
 
 
 my %FallbackPrereqs = (
+  "Capture::Tiny" => 0,
+  "Path::Tiny" => 0,
   "Pod::Simple::SimpleTree" => 0,
   "Test::More" => "0.98"
 );

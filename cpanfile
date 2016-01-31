@@ -3,4 +3,6 @@ requires 'Pod::Simple::SimpleTree';
 
 on test => sub {
     requires 'Test::More', '0.98';
+    requires 'Path::Tiny';
+    requires 'Capture::Tiny';
 };
