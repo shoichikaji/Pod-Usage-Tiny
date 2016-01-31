@@ -37,15 +37,15 @@ Then:
 
 # DESCRIPTION
 
-Pod::Usage::Tiny print usage from main script's pod.
+Pod::Usage::Tiny prints usage from main script's pod.
 I don't like [Pod::Usage](https://metacpan.org/pod/Pod::Usage)'s `pod2usage` very much,
-because it insert quite a lot of indent to usage.
+because it inserts quite a lot of indent to usage.
 
 # METHODS
 
 - `my $string = Pod::Usage::Tiny->usage_string`
 
-    Retrive `SYNOPSIS` or `USAGE` section from main script's pod.
+    Retrieve `SYNOPSIS` or `USAGE` section from main script's pod.
 
 - `Pod::Usage::Tiny->usage( $exit ||= 0 )`
 
